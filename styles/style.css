@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-start {
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+}
+
+body {
+    background: #F3637C;
+    /* background: #FBA5A6; */
+    /* background: #FEA0BA; */
+    color: #212320;
+    font: normal 16pt 'Trebuchet MS';
+    height: 100vh;
+    gap: 20px;
+}
+
+main {
+    background: #FEA0BA;
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    padding: 10px;
+}
+
+article {
+    /* border: 1px solid red; */
+    gap: 10px;
+    height: 100%;
+}
+
+div {
+    gap: 10px;
+}
+
+#input p {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+#input p input {
+    flex: 1 1 auto;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #212320;
+    font-size: .8em;
+}
+
+div#res {
+    overflow-x: auto;
+}
+
+div#res::-webkit-scrollbar {
+    width: 8px;
+    height: 3px;
+}
+
+div#res::-webkit-scrollbar-thumb {
+    background-color: #F3637C;
+}
+
+footer {
+    background: #f47c90;
+    position: absolute;
+    text-align: end;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+}
